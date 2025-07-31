@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern_background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:paddingTop="64dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/card_title"
+            android:textStyle="bold"
+            android:textColor="@color/color_2"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:paddingTop="64dp"/>
+
+        <EditText
+            android:id="@+id/inputLabel"
+            android:hint="@string/card_title_hint"
+            android:textColorHint="#222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#444"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_rounded_bg"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_info"
+            android:textStyle="bold"
+            android:textColor="@color/color_2"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/inputFullName"
+            android:hint="@string/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/inputCompany"
+            android:hint="@string/company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/inputJobTitle"
+            android:hint="@string/job_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/inputPhone"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/inputWebsite"
+            android:hint="@string/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/inputAddress"
+            android:hint="@string/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:minHeight="48dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:text="@string/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:backgroundTint="@color/color_2"
+            android:textColor="@color/color_4"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+</ScrollView>

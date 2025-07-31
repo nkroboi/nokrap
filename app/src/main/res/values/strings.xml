@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Nokrap</string>
+    <string name="card_title">Card Title</string>
+    <string name="my_vcards">My vCards</string>
+    <string name="add_vcard">Add a vCard</string>
+    <string name="qr_code_content_description">QR Code</string>
+    <string name="back">Back</string>
+    <string name="delete_vcard">Delete vCard</string>
+    <string name="card_title_hint">ex. Personal card, Work card</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="full_name">Full name</string>
+    <string name="company_name">Company name</string>
+    <string name="job_title">Job title</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="address">Address</string>
+    <string name="save">SAVE</string>
+</resources>
