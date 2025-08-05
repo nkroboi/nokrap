@@ -4,10 +4,9 @@
   <img src="media/nokrap.png" alt="app logo" width="200"/>
 </p>
 
-A no-BS Android app to create and share your digital business card (vCard) via QR code. 
-Others can scan the QR code to **auto-compile all the info directly into their contacts**, 
-so they just have to press save — no need to fill out annoying online forms that people 
-usually skip.
+A simple, no-nonsense app for creating and sharing your digital business card (vCard) via QR code—all offline and without accounts, tracking, or data sharing. Enter your details, generate your personal QR code, and let others scan it to instantly add your contact—no online signups, third-party links, or extra forms required.
+
+Unlike many online vCard solutions, all features work directly on your device with no internet connection, and your information stays entirely private. Share your contact details with a single scan—privacy-respecting, fast, and frustration-free.
 
 - 100% free
 - No ads
